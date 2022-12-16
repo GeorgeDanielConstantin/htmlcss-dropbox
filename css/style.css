@@ -49,6 +49,7 @@ header {
 
 .container>h1 {
     font-size: 6rem;
+    font-weight: bold;
 }
 
 
@@ -103,10 +104,12 @@ nav>.piano {
 
 .piano>h3 {
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .piano>h5 {
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .piano>ul {
@@ -137,7 +140,7 @@ nav>.piano {
 }
 
 .contatto>div {
-    width: 30%;
+    width: 35%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -146,11 +149,12 @@ nav>.piano {
 }
 
 .contatto>img {
-    width: 70%;
+    width: 65%;
 }
 
 .contatto>div>h3 {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .contatto>div>a {
@@ -162,11 +166,56 @@ nav>.piano {
     text-decoration: none;
 }
 
+/* OPERAZIONI */
+
+.operazioni>h3 {
+    font-size: 3rem;
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
+.card>h5 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin: 1rem;
+    height: 45vh;
+}
+
+
 
 /* TEAMS */
 
-.team {
+.scopri {
     height: 20vh;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.scopri>h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.team {
+    height: 40vh;
     display: flex;
     flex-direction: row;
 }
@@ -203,4 +252,76 @@ nav>.piano {
 .designit>img {
     width: 60%;
     margin-bottom: 4rem;
+}
+
+.bottom-team {
+    background-color: #b4d0e7;
+    height: 25vh;
+}
+
+.bottom-team>.small-container {
+    position: relative;
+}
+.bottom-team>.small-container>h3 {
+    font-size: 3rem;
+    font: bold;
+    color: #61082b;
+    padding-top: 3rem;
+}
+
+.bottom-team>.small-container>a {
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;
+    right: 0;
+    top: 4rem;
+}
+
+/* DOMANDE FREQUENTI */
+
+.domande>h3 {
+    font: 3rem bold;
+    margin-bottom: 2rem
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+details>p {
+    width: 80%;
+}
+
+/* FOOTER */
+
+footer {
+    height: 50vh;
+    background-color: black;
+    margin-top: 10rem;
+}
+
+footer>.small-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contatti {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 4rem;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.contatti>h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
 }
