@@ -89,6 +89,15 @@ header {
 .small-container>nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.titolo-piano {
+    width: 100%;
+    line-height: 100%;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px grey solid;
 }
 
 nav>.piano {
@@ -96,7 +105,11 @@ nav>.piano {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    padding: 1rem;
+    width: 30%;
+    border: 1px grey solid;
 }
+
 
 .small-container>h2 {
     font-size: 4rem;
@@ -122,6 +135,9 @@ nav>.piano {
     justify-content: space-between;
     height: 20vh;
     position: relative;
+    border: 1px grey solid;
+    padding: 1rem;
+    margin-top: 2rem;
 }
 .enterprise {
     position: absolute;
